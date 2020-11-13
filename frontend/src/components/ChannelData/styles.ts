@@ -42,7 +42,6 @@ export const InputWrapper = styled.div`
 
 export const Input = styled.input`
     width: 100%;
-
     height: 44px;
 
     padding: 0 10px 0 57px;
@@ -52,7 +51,7 @@ export const Input = styled.input`
     background-color: var(--chat-input);
     position: relative;
 
-    &::placehoder {
+    &::placeholder {
         color: var(--gray);
     }
 
@@ -69,4 +68,5 @@ export const InputIcon = styled(AlternateEmail)`
     height: 24px;
 
     color: var(--gray);
+    margin-top: -0.05em;
 `;
